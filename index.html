@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IPMAMI - Kami dari Timika, Papua</title>
+  <meta name="description" content="Ikatan Pelajar dan Mahasiswa Mimika - Bersatu, Bergerak, Berprestasi" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader-bg-r"></div>
+    <div class="loader-bg-b"></div>
+    <div class="loader-content">
+      <div class="lc-wordmark">IPMAMI</div>
+      <div class="lc-bar"><div class="lc-fill" id="lcFill"></div></div>
+      <p class="lc-sub" id="lcSub">MEMUAT</p>
+    </div>
+    <div class="loader-corner ll-tl">TIMIKA</div>
+    <div class="loader-corner ll-tr">PAPUA</div>
+    <div class="loader-corner ll-bl">EST. 2005</div>
+    <div class="loader-corner ll-br">INDONESIA</div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <div class="nl-mark">
+          <div class="nlm-r"></div>
+          <div class="nlm-b"></div>
+          <span>IPM</span>
+        </div>
+        <div class="nl-text">
+          <b>IPMAMI</b>
+          <small>Timika · Papua</small>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#visi">Visi Misi</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <a href="#kontak" class="nav-cta">Bergabung →</a>
+      <button class="nav-ham" id="navHam" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mob-menu" id="mobMenu">
+    <div class="mm-inner">
+      <div class="mm-head">
+        <span>IPMAMI</span>
+        <button id="mmClose">✕</button>
+      </div>
+      <div class="mm-links">
+        <a href="#tentang" class="mm-link"><em>01</em> Tentang Kami</a>
+        <a href="#visi" class="mm-link"><em>02</em> Visi & Misi</a>
+        <a href="#program" class="mm-link"><em>03</em> Program</a>
+        <a href="#galeri" class="mm-link"><em>04</em> Galeri</a>
+        <a href="#kontak" class="mm-link"><em>05</em> Kontak</a>
+      </div>
+      <div class="mm-foot">
+        <p>Kami dari Timika.</p>
+        <p>Kami untuk Papua.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+
+    <!-- Diagonal split background -->
+    <div class="hero-split"></div>
+
+    <!-- Grid pattern -->
+    <div class="hero-grid-bg"></div>
+
+    <!-- Geometric SVG ornament -->
+    <svg class="hero-ornament" viewBox="0 0 600 600" fill="none" aria-hidden="true">
+      <!-- Outer ring -->
+      <circle cx="300" cy="300" r="250" stroke="rgba(30,80,160,0.07)" stroke-width="1"/>
+      <circle cx="300" cy="300" r="200" stroke="rgba(30,80,160,0.06)" stroke-width="1"/>
+      <circle cx="300" cy="300" r="150" stroke="rgba(30,80,160,0.05)" stroke-width="1"/>
+      <!-- Cross lines -->
+      <line x1="50" y1="300" x2="550" y2="300" stroke="rgba(30,80,160,0.05)" stroke-width="1"/>
+      <line x1="300" y1="50" x2="300" y2="550" stroke="rgba(30,80,160,0.05)" stroke-width="1"/>
+      <line x1="123" y1="123" x2="477" y2="477" stroke="rgba(30,80,160,0.04)" stroke-width="1"/>
+      <line x1="477" y1="123" x2="123" y2="477" stroke="rgba(30,80,160,0.04)" stroke-width="1"/>
+      <!-- Star-like polygon (Bintang Kejora inspired) -->
+      <polygon points="300,80 320,240 480,260 340,360 380,520 300,420 220,520 260,360 120,260 280,240" stroke="rgba(185,28,28,0.06)" stroke-width="1" fill="none"/>
+    </svg>
+
+    <!-- Floating text bg -->
+    <div class="hero-float-bg" aria-hidden="true">
+      <span>TIMIKA</span>
+      <span>PAPUA</span>
+      <span>MIMIKA</span>
+    </div>
+
+    <div class="wrap hero-wrap">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <div class="hb-dot"></div>
+          Ikatan Pelajar &amp; Mahasiswa Mimika
+        </div>
+
+        <h1 class="hero-title">
+          <span class="ht-l1">KAMI</span>
+          <span class="ht-l2">
+            <span class="ht-dari">DARI</span>
+            <span class="ht-timika">TIMIKA</span>
+          </span>
+          <span class="ht-l3">PAPUA</span>
+        </h1>
+
+        <p class="hero-p">
+          Satu ikatan, satu denyut - pelajar dan mahasiswa asal Mimika 
+          yang tersebar di berbagai kota, berjuang bersama 
+          membangun masa depan tanah kelahiran.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#tentang" class="ha-primary">Kenali IPMAMI
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#program" class="ha-outline">Lihat Program</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hstat">
+            <b class="hstat-n" data-target="500">0</b>
+            <span>Anggota Aktif</span>
+          </div>
+          <div class="hstat-sep"></div>
+          <div class="hstat">
+            <b class="hstat-n" data-target="12">0</b>
+            <span>Program / Tahun</span>
+          </div>
+          <div class="hstat-sep"></div>
+          <div class="hstat">
+            <b class="hstat-n" data-target="8">0</b>
+            <span>Kota Perantauan</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hv-card">
+          <div class="hvc-bg-stripe hvc-red"></div>
+          <div class="hvc-bg-stripe hvc-blue"></div>
+          <div class="hvc-inner">
+            <!-- Abstract star -->
+            <div class="hv-star-wrap">
+              <svg class="hv-star" viewBox="0 0 160 160" fill="none">
+                <polygon points="80,8 95,58 148,58 106,90 122,140 80,108 38,140 54,90 12,58 65,58" fill="#1e50a0" opacity="0.15"/>
+                <polygon points="80,22 92,62 135,62 100,86 114,128 80,104 46,128 60,86 25,62 68,62" fill="#1e50a0" opacity="0.25"/>
+                <polygon points="80,38 89,66 120,66 96,83 105,111 80,94 55,111 64,83 40,66 71,66" fill="#1e50a0" opacity="0.5"/>
+                <circle cx="80" cy="80" r="16" fill="#1e50a0" opacity="0.85"/>
+                <circle cx="80" cy="80" r="8" fill="#1e50a0"/>
+              </svg>
+            </div>
+            <div class="hvc-words">
+              <span class="hcw-1">BERSATU</span>
+              <span class="hcw-2">BERGERAK</span>
+              <span class="hcw-3">BERPRESTASI</span>
+            </div>
+          </div>
+          <div class="hvc-foot">
+                <span>Mimika · Papua Tengah</span>
+          </div>
+        </div>
+        <!-- Floating badges -->
+        <div class="hv-badge hv-b1">🦅 Papua Bangga</div>
+        <div class="hv-badge hv-b2">🎓 Est. 2005</div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <div class="hsh-line"></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker">
+    <div class="ticker-inner">
+      <span>KAMI DARI TIMIKA</span><i>◆</i>
+      <span>BERSATU · BERGERAK · BERPRESTASI</span><i>◆</i>
+      <span>IPMAMI 2025</span><i>◆</i>
+      <span>PAPUA BANGGA</span><i>◆</i>
+      <span>MIMIKA UNTUK INDONESIA</span><i>◆</i>
+      <span>KAMI DARI TIMIKA</span><i>◆</i>
+      <span>BERSATU · BERGERAK · BERPRESTASI</span><i>◆</i>
+      <span>IPMAMI 2025</span><i>◆</i>
+      <span>PAPUA BANGGA</span><i>◆</i>
+      <span>MIMIKA UNTUK INDONESIA</span><i>◆</i>
+    </div>
+  </div>
+
+  <!-- ========== TENTANG ========== -->
+  <section class="tentang" id="tentang">
+    <div class="wrap">
+      <div class="sec-tag reveal"><span>01</span><div></div><b>TENTANG KAMI</b></div>
+
+      <div class="tentang-grid">
+        <div class="tentang-left reveal">
+          <h2 class="sec-h2">Dari Bumi<br/><em>Cendrawasih,</em><br/>Kami Berdiri</h2>
+          <p>IPMAMI lahir dari semangat persatuan, Menjadi rumah bagi setiap pelajar dan mahasiswa yang jauh dari kampung halaman Mimika, namun tetap membawa Mimika di dalam dada mereka.</p>
+          <p>Lebih dari sekadar organisasi, kami adalah jaringan keluarga yang saling menguatkan di perantauan, mendorong prestasi, dan menjaga akar budaya leluhur tanah Papua.</p>
+          <div class="tentang-chips">
+            <span>📍 Mimika, Papua Tengah</span>
+            <span>🕊️ Est. 2005</span>
+            <span>🌏 Berbagai Kota</span>
+          </div>
+        </div>
+
+        <div class="tentang-right reveal">
+          <div class="tcard tcard-red">
+            <span class="tc-n">01</span>
+            <div class="tc-emoji">🦅</div>
+            <h3>Identitas Papua</h3>
+            <p>Rasa bangga akan akar dan budaya Mimika menjadi kekuatan kami di manapun berpijak.</p>
+          </div>
+          <div class="tcard tcard-blue">
+            <span class="tc-n">02</span>
+            <div class="tc-emoji">🔥</div>
+            <h3>Semangat Tanpa Batas</h3>
+            <p>Setiap rintangan adalah batu asah yang membentuk pemimpin-pemimpin masa depan.</p>
+          </div>
+          <div class="tcard tcard-outline">
+            <span class="tc-n">03</span>
+            <div class="tc-emoji">🌱</div>
+            <h3>Tumbuh Bersama</h3>
+            <p>Jaringan alumni dan anggota aktif yang saling mendukung dan membuka peluang.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tentang-quote reveal">
+        <div class="tq-line-r"></div>
+        <blockquote>
+          "Kami bukan perantau yang melupakan akar, <br/>
+          Kami adalah akar yang tumbuh ke seluruh penjuru negeri."
+        </blockquote>
+        <cite>- Semangat IPMAMI</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== VISI MISI ========== -->
+  <section class="visimisi" id="visi">
+    <div class="vm-bg-word">PAPUA</div>
+    <div class="wrap">
+      <div class="sec-tag sec-tag-light reveal"><span>02</span><div></div><b>VISI & MISI</b></div>
+
+      <div class="vm-grid">
+        <div class="vm-left reveal">
+          <div class="vm-chip">VISI</div>
+          <h2 class="sec-h2 white">Arah<br/><em>Langkah</em><br/>Kami</h2>
+          <div class="vm-quote-box">
+            <p>"Menjadi organisasi pelajar dan mahasiswa yang unggul, berdaya saing global, berkarakter budaya lokal, dan berkontribusi nyata bagi kemajuan Mimika dan Papua."</p>
+          </div>
+          <div class="vm-color-row">
+            <div class="vcr-r"></div>
+            <div class="vcr-w"></div>
+            <div class="vcr-b"></div>
+          </div>
+        </div>
+        <div class="vm-right reveal">
+          <div class="vm-chip">MISI</div>
+          <ul class="vm-misi">
+            <li>
+              <span>01</span>
+              <div>
+                <strong>Memperkuat Identitas</strong>
+                <p>Membangun rasa bangga dan identitas sebagai putra-putri Mimika di manapun berada.</p>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <strong>Meningkatkan Kualitas</strong>
+                <p>Fasilitasi akses beasiswa, pelatihan, dan pengembangan kapasitas anggota.</p>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <strong>Membangun Jaringan</strong>
+                <p>Menghubungkan anggota dengan alumni, institusi, dan peluang karier nasional.</p>
+              </div>
+            </li>
+            <li>
+              <span>04</span>
+              <div>
+                <strong>Mengabdi ke Daerah</strong>
+                <p>Program nyata yang berdampak langsung bagi masyarakat Mimika.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROGRAM ========== -->
+  <section class="program" id="program">
+    <div class="wrap">
+      <div class="sec-tag reveal"><span>03</span><div></div><b>PROGRAM UNGGULAN</b></div>
+      <div class="prog-intro reveal">
+        <h2 class="sec-h2">Apa yang <em>Kami<br/>Lakukan</em></h2>
+        <p>Program IPMAMI dirancang untuk memberdayakan, menghubungkan, dan mengangkat setiap anggota.</p>
+      </div>
+
+      <div class="prog-list">
+        <div class="prog-item reveal" style="--d:0s">
+          <div class="pi-left">
+            <span class="pi-num">01</span>
+            <div class="pi-icon">🎓</div>
+          </div>
+          <div class="pi-mid">
+            <h3>IPMAMI Scholarship</h3>
+            <p>Program beasiswa dan pendampingan akademik bagi pelajar berprestasi dari keluarga kurang mampu di Mimika.</p>
+          </div>
+          <div class="pi-right">→</div>
+        </div>
+        <div class="prog-item reveal" style="--d:0.05s">
+          <div class="pi-left">
+            <span class="pi-num">02</span>
+            <div class="pi-icon">🌿</div>
+          </div>
+          <div class="pi-mid">
+            <h3>Festival Budaya Mimika</h3>
+            <p>Perayaan tahunan kekayaan seni dan budaya Mimika - tari tradisional, musik, kuliner, dan pameran kerajinan.</p>
+          </div>
+          <div class="pi-right">→</div>
+        </div>
+        <div class="prog-item prog-item-blue reveal" style="--d:0.1s">
+          <div class="pi-left">
+            <span class="pi-num">03</span>
+            <div class="pi-icon">💼</div>
+          </div>
+          <div class="pi-mid">
+            <h3>Career Bootcamp</h3>
+            <p>Workshop intensif persiapan karier: CV, interview skills, networking, dan koneksi langsung dengan perusahaan.</p>
+          </div>
+          <div class="pi-right">→</div>
+        </div>
+        <div class="prog-item reveal" style="--d:0.15s">
+          <div class="pi-left">
+            <span class="pi-num">04</span>
+            <div class="pi-icon">🏕️</div>
+          </div>
+          <div class="pi-mid">
+            <h3>IPMAMI Camp</h3>
+            <p>Leadership camp tahunan untuk membentuk karakter, teamwork, dan visi kepemimpinan anggota muda.</p>
+          </div>
+          <div class="pi-right">→</div>
+        </div>
+        <div class="prog-item prog-item-red reveal" style="--d:0.2s">
+          <div class="pi-left">
+            <span class="pi-num">05</span>
+            <div class="pi-icon">📡</div>
+          </div>
+          <div class="pi-mid">
+            <h3>Mimika Digital</h3>
+            <p>Pelatihan teknologi dan literasi digital untuk menyiapkan generasi muda Mimika di era industri 4.0.</p>
+          </div>
+          <div class="pi-right">→</div>
+        </div>
+        <div class="prog-item reveal" style="--d:0.25s">
+          <div class="pi-left">
+            <span class="pi-num">06</span>
+            <div class="pi-icon">🤲</div>
+          </div>
+          <div class="pi-mid">
+            <h3>Bakti Sosial</h3>
+            <p>Pengabdian masyarakat langsung di Mimika - kesehatan, pendidikan dasar, dan pemberdayaan warga.</p>
+          </div>
+          <div class="pi-right">→</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERI ========== -->
+  <section class="galeri" id="galeri">
+    <div class="wrap">
+      <div class="sec-tag reveal"><span>04</span><div></div><b>GALERI KEGIATAN</b></div>
+      <h2 class="sec-h2 reveal">Momen yang <em>Kami Ukir</em></h2>
+    </div>
+    <div class="gal-scroll gal-scroll-1">
+      <div class="gs-track">
+        <div class="gs-card gsc-r"><span>🎭</span><p>Festival Budaya 2024</p></div>
+        <div class="gs-card gsc-b"><span>🏆</span><p>Olimpiade Sains</p></div>
+        <div class="gs-card gsc-w"><span>🎓</span><p>Wisuda Bersama</p></div>
+        <div class="gs-card gsc-r"><span>⛺</span><p>Leadership Camp</p></div>
+        <div class="gs-card gsc-b"><span>🌍</span><p>Seminar Nasional</p></div>
+        <div class="gs-card gsc-w"><span>🤝</span><p>MOU PT Freeport</p></div>
+        <!-- duplicate -->
+        <div class="gs-card gsc-r"><span>🎭</span><p>Festival Budaya 2024</p></div>
+        <div class="gs-card gsc-b"><span>🏆</span><p>Olimpiade Sains</p></div>
+        <div class="gs-card gsc-w"><span>🎓</span><p>Wisuda Bersama</p></div>
+        <div class="gs-card gsc-r"><span>⛺</span><p>Leadership Camp</p></div>
+        <div class="gs-card gsc-b"><span>🌍</span><p>Seminar Nasional</p></div>
+        <div class="gs-card gsc-w"><span>🤝</span><p>MOU PT Freeport</p></div>
+      </div>
+    </div>
+    <div class="gal-scroll gal-scroll-2">
+      <div class="gs-track gs-track-rev">
+        <div class="gs-card gsc-b"><span>🎨</span><p>Workshop Batik Papua</p></div>
+        <div class="gs-card gsc-w"><span>💻</span><p>Coding Bootcamp</p></div>
+        <div class="gs-card gsc-r"><span>🌿</span><p>Bakti Sosial Mimika</p></div>
+        <div class="gs-card gsc-b"><span>🎤</span><p>Mimika Night 2024</p></div>
+        <div class="gs-card gsc-w"><span>📸</span><p>Dokumentasi Budaya</p></div>
+        <div class="gs-card gsc-r"><span>🏅</span><p>Penghargaan Tahunan</p></div>
+        <!-- duplicate -->
+        <div class="gs-card gsc-b"><span>🎨</span><p>Workshop Batik Papua</p></div>
+        <div class="gs-card gsc-w"><span>💻</span><p>Coding Bootcamp</p></div>
+        <div class="gs-card gsc-r"><span>🌿</span><p>Bakti Sosial Mimika</p></div>
+        <div class="gs-card gsc-b"><span>🎤</span><p>Mimika Night 2024</p></div>
+        <div class="gs-card gsc-w"><span>📸</span><p>Dokumentasi Budaya</p></div>
+        <div class="gs-card gsc-r"><span>🏅</span><p>Penghargaan Tahunan</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PENGURUS ========== -->
+  <section class="pengurus">
+    <div class="wrap">
+      <div class="sec-tag reveal"><span>05</span><div></div><b>STRUKTUR PENGURUS</b></div>
+      <h2 class="sec-h2 reveal">Yang <em>Memimpin</em><br/>Bersama Kita</h2>
+      <div class="pen-grid">
+        <div class="pen-card pen-featured reveal" style="--d:0s">
+          <div class="pen-top-bar pen-bar-red"></div>
+          <div class="pen-av pen-av-r">KU</div>
+          <span class="pen-role">Ketua Umum</span>
+          <h4>Nama Ketua Umum</h4>
+          <p>Universitas / Kota</p>
+        </div>
+        <div class="pen-card reveal" style="--d:0.08s">
+          <div class="pen-top-bar pen-bar-blue"></div>
+          <div class="pen-av pen-av-b">WK</div>
+          <span class="pen-role">Wakil Ketua</span>
+          <h4>Nama Wakil Ketua</h4>
+          <p>Universitas / Kota</p>
+        </div>
+        <div class="pen-card reveal" style="--d:0.16s">
+          <div class="pen-top-bar pen-bar-red"></div>
+          <div class="pen-av pen-av-rb">SK</div>
+          <span class="pen-role">Sekretaris Umum</span>
+          <h4>Nama Sekretaris</h4>
+          <p>Universitas / Kota</p>
+        </div>
+        <div class="pen-card reveal" style="--d:0.24s">
+          <div class="pen-top-bar pen-bar-blue"></div>
+          <div class="pen-av pen-av-bw">BN</div>
+          <span class="pen-role">Bendahara Umum</span>
+          <h4>Nama Bendahara</h4>
+          <p>Universitas / Kota</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== KONTAK ========== -->
+  <section class="kontak" id="kontak">
+    <div class="wrap">
+      <div class="sec-tag sec-tag-light reveal"><span>06</span><div></div><b>KONTAK & BERGABUNG</b></div>
+      <div class="kontak-grid">
+        <div class="kontak-left reveal">
+          <h2 class="sec-h2 white">Bergabung<br/><em>Bersama</em><br/>Kami</h2>
+          <p>Kamu pelajar atau mahasiswa asal Mimika? Jadilah bagian dari keluarga besar IPMAMI!</p>
+          <div class="kontak-contacts">
+            <div class="kc-item">
+              <div class="kci-icon">✉</div>
+              <div><strong>Email</strong><span>ipmami.official@gmail.com</span></div>
+            </div>
+            <div class="kc-item">
+              <div class="kci-icon">📱</div>
+              <div><strong>WhatsApp</strong><span>+62 8xx xxxx xxxx</span></div>
+            </div>
+            <div class="kc-item">
+              <div class="kci-icon">📍</div>
+              <div><strong>Lokasi</strong><span>Mimika, Papua Tengah & Kota Perantauan</span></div>
+            </div>
+          </div>
+          <div class="kontak-socials">
+            <a href="#" class="ksoc" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="#" class="ksoc" aria-label="Twitter/X">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="ksoc" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501A3.008 3.008 0 00.527 6.203a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.008 3.008 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.008 3.008 0 002.089-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="kontak-right reveal">
+          <form class="kform" id="kform">
+            <h3>Kirim Pesan</h3>
+            <div class="kf-row">
+              <div class="kf-g"><label>Nama Lengkap</label><input type="text" placeholder="Nama kamu..." required/></div>
+              <div class="kf-g"><label>Asal Kampus / Kota</label><input type="text" placeholder="Universitas / Kota..."/></div>
+            </div>
+            <div class="kf-g"><label>Email</label><input type="email" placeholder="email@kamu.com" required/></div>
+            <div class="kf-g"><label>Pesan</label><textarea rows="4" placeholder="Tulis pesan kamu..." required></textarea></div>
+            <button type="submit" class="kf-btn">Kirim Pesan ✈</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="fi-brand">
+        <div class="fib-name">IPMAMI</div>
+        <p>Ikatan Pelajar &amp; Mahasiswa Mimika</p>
+        <p>Bersatu · Bergerak · Berprestasi</p>
+
+      </div>
+      <div class="fi-cols">
+        <div class="fic-col">
+          <h5>Navigasi</h5>
+          <a href="#tentang">Tentang Kami</a>
+          <a href="#visi">Visi & Misi</a>
+          <a href="#program">Program</a>
+          <a href="#galeri">Galeri</a>
+          <a href="#kontak">Kontak</a>
+        </div>
+        <div class="fic-col">
+          <h5>Program</h5>
+          <a href="#">IPMAMI Scholarship</a>
+          <a href="#">Festival Budaya</a>
+          <a href="#">Career Bootcamp</a>
+          <a href="#">Leadership Camp</a>
+          <a href="#">Bakti Sosial</a>
+        </div>
+      </div>
+      <div class="fi-cta">
+        <p class="fic-big">Dari Timika,<br/>untuk Papua.</p>
+        <a href="#kontak" class="fic-btn">Bergabung →</a>
+      </div>
+    </div>
+    <div class="footer-bot">
+      <span>© 2025 IPMAMI - All rights reserved. | Agus Satria Adhitama</span>
+      <span>Made with ❤️ for Papua 🦅</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
