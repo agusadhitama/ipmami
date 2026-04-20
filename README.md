@@ -5,6 +5,7 @@
 
 Website resmi organisasi **IPMAMI** - wadah pelajar dan mahasiswa asal Mimika, Papua Tengah. Dibangun dengan HTML, CSS, dan JavaScript murni tanpa framework, responsif di semua perangkat.
 
+https://agusadhitama.github.io/ipmami
 ---
 
 ## ✨ Fitur
